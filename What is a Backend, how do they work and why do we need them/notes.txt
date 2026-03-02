@@ -1,0 +1,15 @@
+HTTP, websocket or gRPC
+Lets trace how the browser searches and reaches our server?
+Look at  DNS server.
+DNS is a huge topic
+
+Lets understand some basics.
+
+It has A Record which points to an IP
+It has CName which points a Domain Name or Sub domain
+IP for A Record comes from an EC2 instance in AWS.
+You can find the IP in EC@ instances, now to reach the server, it has to go through a firewall. An AWS firewall. It has to do some kind of request.
+
+Once it reaches the AWS instance, it reaches to reverse proxy. Reverse Proxy sits in front of all the servers. It helps us to manage different types of redirects or configs from a centralized space. Instead of changing configs in each server. Here we use ngnix.
+
+Browser -> DNS -> AWS firewall -> EC2 instance -> Ngnix -> localhost
