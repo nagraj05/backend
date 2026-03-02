@@ -1,0 +1,4 @@
+Expectations: story & philosophy of backend.
+Foundations & common patterns.
+Implementations. Node js & Golang.
+Production Level Projects.
