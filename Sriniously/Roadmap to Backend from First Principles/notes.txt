@@ -1,0 +1,31 @@
+A high level understanding
+HTTP Protocol
+Routing
+Serilizaion & Deserilization
+Authentication & Authorization
+Validation & Transformation
+Middlewares
+Request Context
+Handling on Controllers
+CRUD deepdive
+REST best practices
+Databases
+Business Logic Layer
+Caching
+Transactional Emails
+Task Quesing & Scheduling
+ElasticSearch
+Error Handling
+Config management
+Logging, Monitoring & observations
+Graceful Shutdown
+Security
+Scaling & Performance
+Concurrency & parallelism
+Object Storage & large files
+Real-time backend systems
+Testing & code quality
+factor app
+OpenAPI standards
+Webhooks
+Devops for backend engineers.
