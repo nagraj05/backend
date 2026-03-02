@@ -1,0 +1,20 @@
+HTTP protocol
+    1. Stateless
+    2. client-server model
+
+
+1. Statelessness means it has no memory of past interactions. So each HTTP request carries all the necessary information for the server to process it such as headers or URLs and methods and after the server responds it forgets about the request.
+If the client makes another request the server treats it as a new and unrelated event and it also means self-contained requests
+since the server does not remember past requests, each request must include all the necessary data such as authentication token
+or session information to handle that specific interaction
+For example in the case of accessing a user profile the client has to provide credentials like cookies or tokens on every requests for
+the server to know which user is requesting the data.
+So what are the benefits of that what are benefits of this stateless model
+The obvious one is Simplicity, stateless design simplifies server architecture because the server does not need to store session information
+which would otherwise required addition resources and complexity and it means scalability
+stateless protocol makes it easy to distribute request accross multiple servers because no sing;e server needs to keep track of a session
+and if the server crashes it does not affect the state of a client interaction as there is no session or memory of a request that needs to be restored
+and having said that because HTTP is stateless developers often implement State Management techniques like cookies or sessions or tokens to maintain continuity
+in interactions where needed like user logins or shopping carts.
+
+2. client-server model
